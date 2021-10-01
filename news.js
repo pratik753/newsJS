@@ -4,7 +4,7 @@ let source = "the-times-of-india";
 let apiKey = "8f2e8d45610f478fbf36832d60bc3ae0";
 
 let newsaccordion = document.getElementById("newsAccordion");
-
+console.log("hiii")
 const xhr = new XMLHttpRequest();
 xhr.open(
   "GET",
